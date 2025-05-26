@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mí portafolio personal</title><!--portfolio title-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav"><!--We created a navigation menu with access to my portfolio sessions-->
+        <a href="#about-me">Acerca de mí</a>
+        <a href="#projects">Proyecto</a>
+        <a href="#Contact">Contacto</a>
+    </nav>
+    <div class="por">
+        <h1>Este es mí portafolio</h1>
+    </div>
+    <div class="Hoja_de_vida">
+        <img src="1.jpg" alt="">
+        <a href="https://ianaguirre1.github.io/Hoja_de-_vida/" target="_blank">Hoja de vida</a>
+    </div>
+    <section id="about-me"><!--We have the about me section. Your own ID, to be mentioned later in the navigation section-->
+        <h2>Acerca de mí</h2>
+        <p>Hola mí nombre es Ian, Tengo 21 años, tengo dos Hermanos y vivo con Mis papás y Hermanos</p>
+        <p>Trabajo en el metro de medellín </p>
+    </section>
+    <div class="lista">
+        <ul><!--We create an unordered list-->
+            <li>Pensamiento critico</li>
+            <li>dedicación</li>
+            <li>compromiso</li>
+        </ul>
+    </div>
+    <section id="projects"><!--We created a section where I will show my project.-->
+        <h2>Proyecto</h2>
+        <h3>Proyecto 1: Portafolio website</h3>
+        <p> Este es mi primer proyecto donde estoy Construyendo un portafolio personal usando HTML</p>
+    </section>
+    <div>
+        <img src="https://ceutec.hn/wp-content/uploads/2024/07/cuales-son-lenguajes-programacion.png" alt="proyecto_portafolio" width="300"><!--representative image-->
+    </div>
+    <table><!--We create a table where we will have content-->
+        <tr>
+            <th>Hojas de vida</th>
+            <th>proyecto</th>
+            <th><a href="https://www.google.com/search?client=opera-gx&q=porgramacion&sourceid=opera&ie=UTF-8&oe=UTF-8" target="_blank">Presiona aquí</a></th><!---->
+        </tr>
+        <tr>
+            <td>Portafolio</td>
+            <td>HTML</td>
+            <td><a href="https://www.google.com/search?client=opera-gx&q=porgramacion&sourceid=opera&ie=UTF-8&oe=UTF-8">Nuevo proyecto</a></td><!--With target in the a tag, we address the page in another tab-->
+        </tr>                      
+    </table>
+    <form action="/send" method="post" id="Contact"><!--We create a form-->
+        <label for="name">Nombre:</label><!--We associate the label tag with the input.-->
+        <input type="text" id="name" name="name" required><!--In the input we add an ID, which has to be equal to the for of the label-->
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="2" required></textarea><!--We create an input type message, with the textarea tag. two lines maximum-->
+
+        <input type="submit" value="send">
+    </form>
+
+    <a href="https://ianaguirre1.github.io/PORTAFOLIO/" target="_blank">github</a>
+
+</body>
+</html>
