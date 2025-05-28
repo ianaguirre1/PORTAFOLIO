@@ -24,6 +24,7 @@ body, html {
     background-color: white;
     padding-top: 10px;
     margin-bottom: 10px;
+
 }
 
 .nav a {
@@ -37,7 +38,8 @@ body, html {
     font-weight: weight;
     font-style: normal;
     margin-right: 100px;
-
+    border: 2px solid #000;
+    box-shadow: 4px 4px 10px rgba(247, 3, 27, 0.1);
 }
 
 #about-me{
@@ -72,11 +74,16 @@ body, html {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background-image: url('1.jpg');
+    background-size: cover;
 }
 .Hoja_de_vida img {
     order:2;
     width: 200px;
     height: 200px;
+    background-image: url('1.jpg');
+    background-size: cover;
+
     
 }
 .Hoja_de_vida a{
