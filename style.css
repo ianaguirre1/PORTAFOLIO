@@ -69,7 +69,7 @@ body, html {
 
 .Hoja_de_vida{
     text-align: center;
-    margin-bottom: 1000px;
+    margin-bottom: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,5 +99,37 @@ body, html {
      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .Hoja_de_vida a:hover{
+    background-color: #00337a;
+}
+
+.sitio_web_semantico{
+    text-align: center;
+    margin-bottom: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('ropa.jpg');
+    background-size: cover;
+}
+.sitio_web_semantico img{
+    order:2;
+    width: 200px;
+    height: 200px;
+    background-image: url('1.jpg');
+    background-size: cover;
+}
+.sitio_web_semantico a{
+    order: 1;
+    text-decoration: none;
+    background-color: #004aad;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background-color 0.3s ease;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.sitio_web_semantico a:hover{
     background-color: #00337a;
 }
