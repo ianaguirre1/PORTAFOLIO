@@ -96,7 +96,7 @@ body, html {
     font-size: 18px;
     font-family: 'Segoe UI', sans-serif;
     transition: background-color 0.3s ease;
-     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .Hoja_de_vida a:hover{
     background-color: #00337a;
